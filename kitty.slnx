@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="kitty/kitty.vcxproj" Id="15c9bc1f-5a90-4689-bd99-1f471ba18c94" />
+</Solution>

@@ -1,0 +1,29 @@
+Kitty Base - Fastest Roblox external script executor written in C++ by kitty (sleppy.lol._05074) and Flying_DUM12345 (quangaledingle). DM us if you see any bugs and we'll fix it in next updates.
+
+Description - Kitty is a lightweight, high-performance external script executor for Roblox, written in C++. It exposes a local HTTP endpoint on port 3110 that accepts plain-text Luau scripts and injects them into the target process specified by its PID.
+
+Requirements:
+- Windows 10 / 11 (x64)
+- Visual Studio with v145 Microsoft Tools (MSVC v145 toolset)
+- Windows SDK (latest)
+
+Building from Source
+
+Visual Studio:
+1. Open kitty.slnx project file.
+2. Set the following in Project Properties:
+- Configuration: Release
+- Platform: x64
+- C++ Language Standard: ISO C++23 (/std:c++23)
+- Platform Toolset: v145
+3. Build the solution (Ctrl + Shift + B).
+
+The resulting .exe will be placed at 'kitty\build\kitty.exe' place blake3.dll next to kitty.exe
+
+Usage: kitty.exe <PID>
+
+Credits - A special thanks to Flying_DUM12345 for responding to my idea to realise Roblox external script executor as open-source project with core modules execution. And now Qwar1e (iqw2n) is helping to reach identity level 8.
+
+And big credits to my friend - @byteblue who helping with environment and bug fixes
+
+How to execute scripts? - Use 'send_script.py' script to execute scripts into Roblox.
